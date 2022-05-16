@@ -1,10 +1,13 @@
 import {Fragment, useState, useEffect} from "react";
 import Logo from '../../components/logo/Logo';
 import NavBar from '../../components/NavBar/NavBar';
-import HeaderSearch from '../../components/HeaderSearch/HeaderSearch';
-import Btn from '../../components/Btn/Btn';
+// import HeaderSearch from '../../components/HeaderSearch/HeaderSearch';
+// import Btn from '../../components/Btn/Btn';
 import MobileMenu from "../../components/NavBar/MobileMenu"
 import MainSearch from "../../components/NavBar/MainSearch"
+// import {NavLink} from 'react-router-dom';
+import {Link} from "react-router-dom";
+
 
 const Header = () => {
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
@@ -40,17 +43,19 @@ const Header = () => {
                         <div className="row justify-content-between align-items-center">
                             <div className="col-xl-2 col-auto order-0">
                                 <Logo 
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                                    image={`${process.env.PUBLIC_URL}/images/logo/Greenfield IT logo.png`}
                                 />
                             </div>
                             <div className="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1">
                                 <div className="menu-column-area d-none d-xl-block position-static">
                                     <NavBar />
                                 </div>
-                                <div className="header-search-area ml-xl-7 ml-0">
+                                
+                                {/* Search */}
+                                {/* <div className="header-search-area ml-xl-7 ml-0">
 
                                     <HeaderSearch onClick={onSearchHandler}/>
-                                </div>
+                                </div> */}
 
                                 <div className="header-mobile-menu-toggle d-xl-none ml-sm-2">
                                     <button type="button" className="toggle" onClick={onCanvasHandler}>
@@ -62,7 +67,9 @@ const Header = () => {
                             </div>
 
                             <div className="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
-                                <Btn name='Buy Now' />
+                                {/* <Btn name='Contact Us'/> */}
+                                <Link className="btn btn-primary btn-hover-secondary" to={process.env.PUBLIC_URL + "/contact"}>Contact Us</Link>
+
                             </div>
                         </div>
                     </div>
