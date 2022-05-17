@@ -1,20 +1,20 @@
 [
     {
         "id": "1",
-        "title": "Designing awesome brands & experiences",
-        "desc": "We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your brand and business.",
-        "backgroundImage": "/images/hero-image/hero-2.jpg"
+        "title": "ARE YOU MICROSOFT 365 READY?",
+        "desc": "Modernise your business and Improve your productivity, efficiency and information-sharing with a tailored Office 365 solution.",
+        "backgroundImage": "/images/hero-image/office-365.jpg"
     },
     {
         "id": "2",
-        "title": "Designing awesome brands & experiences",
-        "desc": "We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your brand and business.",
-        "backgroundImage": "/images/hero-image/hero-1.jpg"
+        "title":"DO YOU HAVE A DISASTER RECOVERY PLAN?",
+        "desc": "Maintain business continuity and protect your revenue and reputation with reliable disaster recovery and back-up solutions.",
+        "backgroundImage": "/images/hero-image/data-recovery.jpg"
     },
     {
         "id": "3",
-        "title": "Designing awesome brands & experiences",
-        "desc": "We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your brand and business.",
-        "backgroundImage": "/images/hero-image/hero-3.jpg"
+        "title": "IS YOUR SYSTEM SECURE?",
+        "desc": "Protect your network and data from malicious attacks with best practise firewall, antivirus and endpoint protection solutions.",
+        "backgroundImage": "/images/hero-image/system-security.jpg"
     }
 ]
