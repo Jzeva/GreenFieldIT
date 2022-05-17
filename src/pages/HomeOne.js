@@ -4,10 +4,10 @@ import Header from "../partials/header/Header";
 import IntroSlider from '../container/IntroSlider/IntroSlider';
 import HomeAbout from '../components/About/HomeAbout.jsx';
 import ServiceIconBox from '../container/service/ServiceIconBox';
-import HomeSuccess from '../components/Success/HomeSuccess';
+// import HomeSuccess from '../components/Success/HomeSuccess';
 import Portfolio from '../container/Portfolio/Portfolio';
 import HomeBlog from '../container/BlogGrid/HomeBlog';
-import Newsletter from '../container/Newsletter/Newsletter';
+// import Newsletter from '../container/Newsletter/Newsletter';
 import ContactInformation from '../container/ContactInformation/ContactInformation';
 import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop.jsx';
@@ -22,10 +22,10 @@ const HomeOne = () => {
             <IntroSlider />
             <HomeAbout />
             <ServiceIconBox classOption="bg-color-1" />
-            <HomeSuccess />
+            {/* <HomeSuccess /> */}
             <Portfolio />
             <HomeBlog />
-            <Newsletter />
+            {/* <Newsletter /> */}
             <ContactInformation />
             <Footer />
             <ScrollToTop />
