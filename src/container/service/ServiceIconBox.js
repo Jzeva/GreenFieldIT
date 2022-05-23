@@ -13,9 +13,9 @@ const ServiceIconBox = ({ classOption }) => {
           subTitle="Greenfield IT can provide your business with a range of IT services and cost-effective technology solutions."
         />
 
-        <div className="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6 ">
+        <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6 row-wrap">
           {IconBoxData &&
-            IconBoxData.slice(0, 4).map((single, key) => {
+            IconBoxData.slice(0, 6).map((single, key) => {
               return (
                 <div key={key} className="col mb-6" data-aos="fade-up">
                   <IconBox classOption="box-border" data={single} key={key} />

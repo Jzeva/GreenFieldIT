@@ -2,7 +2,7 @@
   {
     "id": "1",
     "icon": "images/svg/linea/linea-basic-target.svg",
-    "title": "Managed Services",
+    "title": "Managed IT Services",
     "desc": "Whether your in-house IT staff need help, or you want to outsource all of your IT, Greenfield IT’s Managed Services can take care of regular infrastructure monitoring and management, freeing up your staff to focus on higher-value projects.",
     "pageLink": "Learn More",
     "link": "service"
@@ -10,7 +10,7 @@
   {
     "id": "2",
     "icon": "images/svg/linea/linea-basic-picture-multiple.svg",
-    "title": "Business Continuity",
+    "title": "VoIP Telephony",
     "desc": "If you are unprepared for an IT disaster, the consequences for your business’s operations and bottom line could be significant. Greenfield IT can take the headaches out of disaster-proofing your business, with expert and reliable technologies and solutions that work.    ",
     "pageLink": "Learn More",
     "link": "service"
@@ -25,16 +25,16 @@
   },
   {
     "id": "4",
-    "icon": "images/svg/linea/linea-basic-display.svg",
-    "title": "Office 365",
-    "desc": "Microsoft Office 365 is changing the way that businesses work and is a great tool for increasing work efficiency, collaboration and accessibility. Greenfield IT can support your business to migrate and manage an Office 365 environment expertly and effectively.",
+    "icon": "images/svg/linea/linea-basic-elaboration-briefcase-check.svg",
+    "title": "SharePoint",
+    "desc": "Microsoft 365 is changing the way that businesses work and is a great tool for increasing work efficiency, collaboration and accessibility. Greenfield IT can support your business to migrate and manage an Office 365 environment expertly and effectively.",
     "pageLink": "Learn More",
     "link": "service"
   },
   {
     "id": "5",
     "icon": "images/svg/linea/linea-basic-gear.svg",
-    "title": "Development",
+    "title": "Microsoft 365",
     "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
     "pageLink": "Learn More",
     "link": "service"
@@ -42,7 +42,7 @@
   {
     "id": "6",
     "icon": "images/svg/linea/linea-basic-display.svg",
-    "title": "Marketing",
+    "title": "Backup and Business Continuity",
     "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
     "pageLink": "Learn More",
     "link": "service"
