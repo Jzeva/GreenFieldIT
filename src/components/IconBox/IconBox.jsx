@@ -20,7 +20,7 @@ const IconBox = ({ data, classOption }) => {
             <div className="content">
                 <h3 className="title">{data.title}</h3>
                 <div className="desc">
-                    <p>{data.desc}</p>
+                    <p className="text-xs">{data.desc}</p>
                 </div>
                 <Link to={data.link} className="link">{data.pageLink}</Link>
             </div>

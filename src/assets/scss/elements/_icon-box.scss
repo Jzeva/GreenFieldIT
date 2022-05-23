@@ -5,7 +5,7 @@
     display: block;
 
     padding: 50px 60px;
-
+    
     transition: $transition;
     border-radius: 5px;
     z-index: 99;
@@ -48,27 +48,37 @@
 
     & .content {
         & .title {
+            
             font-size: 20px;
             line-height: 1;
+            height:20px;
 
-            margin: 0;
+            margin-bottom: 15px;
 
             color: $heading-color;
         }
 
         & .desc {
+            height:200px;
             margin-top: 25px;
+            margin-bottom: 35px;
             // Responsive
             @media #{$desktop-device}{
                 margin-top: 20px;
+                height: 150px;;
             }
             @media #{$large-mobile}{
                 margin-top: 20px;
+                height: 200px;
             }
             & p {
                 line-height: 1.6;
-
+                font-size: 0.7rem;
                 color: $body-color;
+            }
+            @media #{$tablet-device}{
+                margin-top: 20px;
+                height:200px;
             }
         }
 
@@ -78,14 +88,17 @@
             line-height: 1;
             display: inline-flex;
             align-items: center;
-            margin-top: 35px;
+            margin-top: 45px;
             color: $primary;
             // Responsive
             @media #{$desktop-device}{
-                margin-top: 20px;
+                margin-top: 100px;
             }
             @media #{$large-mobile}{
-                margin-top: 20px;
+                margin-top: 100px;
+            }
+            @media #{$tablet-device}{
+                margin-top: 100px;
             }
         }
     }
