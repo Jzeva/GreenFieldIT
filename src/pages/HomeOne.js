@@ -6,7 +6,7 @@ import HomeAbout from '../components/About/HomeAbout.jsx';
 import ServiceIconBox from '../container/service/ServiceIconBox';
 // import HomeSuccess from '../components/Success/HomeSuccess';
 // import Portfolio from '../container/Portfolio/Portfolio';
-import HomeBlog from '../container/BlogGrid/HomeBlog';
+// import HomeBlog from '../container/BlogGrid/HomeBlog';
 // import Newsletter from '../container/Newsletter/Newsletter';
 import ContactInformation from '../container/ContactInformation/ContactInformation';
 import Footer from '../container/Footer/Footer';
@@ -24,7 +24,7 @@ const HomeOne = () => {
             <ServiceIconBox classOption="bg-color-1" />
             {/* <HomeSuccess /> */}
             {/* <Portfolio /> */}
-            <HomeBlog />
+            {/* <HomeBlog /> */}
             {/* <Newsletter /> */}
             <ContactInformation />
             <Footer />
