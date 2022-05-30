@@ -25,8 +25,7 @@ const HomeAbout = () => {
 
                 <SectionTitle
                     title="We are a full-service creative agency"
-                    subTitle="Our team of designers, developers and creatives are perfectionists
-                    who love what they do and love"
+                    subTitle="Greenfield IT can provide your business with a range of IT services and cost-effective technology solutions."
                 />
 
                 <div className="row">
@@ -35,14 +34,14 @@ const HomeAbout = () => {
                     <div className="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                         <div className="about-image-area">
                             <div className="about-image">
-                                <Tilt scale={scale} transitionSpeed={4000}>
-                                    <img src={process.env.PUBLIC_URL + "images/about/home-one-about/home_agency_about_1.jpg"} alt="" />
+                                <Tilt scale={scale} transitionSpeed={4000} >
+                                    <img src={process.env.PUBLIC_URL + "images/about/home-one-about/home-about-new-1.jpg"} alt="" width="370" />
                                 </Tilt>
                             </div>
                         
                             <div className="about-image">
                                 <Tilt scale={scale} transitionSpeed={4000}>
-                                    <img src={process.env.PUBLIC_URL + "images/about/home-one-about/home_agency_about_2.jpg"} alt="" />
+                                    <img src={process.env.PUBLIC_URL + "images/about/home-one-about/home-about-new-2.jpg"} alt="" width="370"/>
                                 </Tilt>
                             </div>
                             <div className="shape shape-1" id="scene" ref={sceneEl}>
