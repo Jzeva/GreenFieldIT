@@ -14,15 +14,15 @@ const Footer = () => {
                         <div className="footer-widget">
                             <div className="footer-logo">
                                 <Logo 
-                                    image={`${process.env.PUBLIC_URL}/images/logo/footer-logo.png`}
+                                    image={`${process.env.PUBLIC_URL}/images/logo/GreenfieldIT-footer-logo.png`} width="129"
                                 />
                             </div>
                             <div className="footer-widget-content">
                                 <div className="content">
 
 
-                                    <p><Link to={process.env.PUBLIC_URL + "/"}>(+1) 212-946-2701</Link></p>
-                                    <p><Link to={process.env.PUBLIC_URL + "/"}>hello@hasagency.com</Link> </p>
+                                    <p><Link to={process.env.PUBLIC_URL + "/"}>1300 998 799</Link></p>
+                                    <p><Link to={process.env.PUBLIC_URL + "/"}>support@greenfieldit.com.au.</Link> </p>
                                 </div>
                                 <div className="footer-social-inline">
                                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
@@ -43,12 +43,12 @@ const Footer = () => {
 
 
                 </div>
-
+{/* 
                 <div className="row">
                     <div className="col">
                         <p className="copyright">&copy; 2021 <strong>Exomac</strong> Made with <i className="fas fa-heart text-danger"></i> by <a target="_blank" rel="noopener noreferrer" href="https://hasthemes.com/"><strong>HasThemes</strong></a>.</p>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </div>
