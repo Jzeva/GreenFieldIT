@@ -195,6 +195,7 @@
 }
 
 .footer-widget {
+    // margin-right: 1rem;
 }
 
 .footer-logo{
@@ -202,18 +203,18 @@
 }
 
 .footer-widget-title {
-    font-size: 18px;
+    font-size: 15px;
     color: $white;
     margin-bottom: 17px;
 }
 
 .footer-widget-content {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: $gray-100;
 
     & p {
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         color: $gray-100;
         font-family: $link-font;
 

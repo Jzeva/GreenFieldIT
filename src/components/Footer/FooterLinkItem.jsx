@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const FooterLinkItem = ({data}) => {
     return (
-        <div className="footer-widget">
+        <div className="footer-widget pt-12">
             <h4 className="footer-widget-title">{data.title}</h4>
             <div className="footer-widget-content">
                 <ul>

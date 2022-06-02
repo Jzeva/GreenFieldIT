@@ -1,105 +1,84 @@
 [
     {
         "id": 1,
-        "title": "Services",
+        "title": "Managed Services",
         "list": [
             {
             "id": 1,
-            "text": "Marketing",
+            "text": "IT Infrastructure",
             "url": "/"
             },
             {
             "id": 2,
-            "text": "SEO/SEM",
+            "text": "Customer Support",
             "url": "/"
             },
             {
             "id": 3,
-            "text": "Development",
+            "text": "Vendor Management",
             "url": "/"
             },
             {
             "id": 4,
-            "text": "UX Design",
+            "text": "IT Documentationx",
             "url": "/"
             }
         ]
     },
     {
         "id": 2,
-        "title": "Products",
+        "title": "Business Continuity",
         "list": [
             {
             "id": 1,
-            "text": "Elementor Guru",
+            "text": "Disaster Recovery",
             "url": "/"
             },
             {
             "id": 2,
-            "text": "WooLentor Pro",
-            "url": "/"
-            },
-            {
-            "id": 3,
-            "text": "Plugins",
-            "badge": "New",
-            "url": "/"
-            },
-            {
-            "id": 4,
-            "text": "Page Builder",
+            "text": "Office 365 Backups",
             "url": "/"
             }
         ]
     },
     {
         "id": 3,
-        "title": "About",
+        "title": "IT Security",
         "list": [
             {
             "id": 1,
-            "text": "Features",
+            "text": "Managed Firewall",
             "url": "/"
             },
             {
             "id": 2,
-            "text": "Our Partners",
+            "text": "Managed Antivirus",
             "url": "/"
             },
             {
             "id": 3,
-            "text": "Affiliate Program",
-            "url": "/"
-            },
-            {
-            "id": 4,
-            "text": "Pricing",
+            "text": "Mobile Device",
             "url": "/"
             }
         ]
     },
     {
         "id": 4,
-        "title": "Contact",
+        "title": "Office 365",
         "list": [
             {
             "id": 1,
-            "text": "Support Ticket",
+            "text": "Implementation",
             "url": "/"
             },
             {
             "id": 2,
-            "text": "Help Desk",
+            "text": "SharePoint",
             "url": "/"
             },
             {
             "id": 3,
-            "text": "Live Chat",
-            "url": "/"
-            },
-            {
-            "id": 4,
-            "text": "FAQs",
+            "text": "Information Rights",
             "url": "/"
             }
         ]

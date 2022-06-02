@@ -8,9 +8,9 @@ const Footer = () => {
     return (
         <div className="footer-section section footer-bg-color">
             <div className="container">
-                <div className="row mb-lg-14 mb-md-10 mb-6">
+                <div className="row mb-lg-10 mb-md-8 mb-6">
 
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 col-12 mb-6">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 col-12 mb-2 ">
                         <div className="footer-widget">
                             <div className="footer-logo">
                                 <Logo 
@@ -19,8 +19,6 @@ const Footer = () => {
                             </div>
                             <div className="footer-widget-content">
                                 <div className="content">
-
-
                                     <p><Link to={process.env.PUBLIC_URL + "/"}>1300 998 799</Link></p>
                                     <p><Link to={process.env.PUBLIC_URL + "/"}>support@greenfieldit.com.au.</Link> </p>
                                 </div>
@@ -35,7 +33,7 @@ const Footer = () => {
 
                     {FooterData && FooterData.map((single, key) => {
                             return(
-                                <div key={key} className="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mb-6">
+                                <div key={key} className="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mb-2">
                                     <FooterLinkItem data={single} key={key} />
                                 </div>
                             ); 
