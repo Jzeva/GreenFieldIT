@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = () => {  
   return (
     <nav className="site-main-menu">
       <ul>
@@ -40,9 +40,9 @@ const NavBar = () => {
           </NavLink>
         </li> */}
         <li className="has-children">
-          <NavLink to={process.env.PUBLIC_URL + "/home-one"}>
+          <NavLink onClick={event => event.preventDefault()}  to={process.env.PUBLIC_URL + "/service"}>
             <span className="menu-text">Services</span>
-          </NavLink>{" "}
+          </NavLink>
           <span className="menu-toggle">
             <i className="far fa-angle-down"></i>
           </span>
@@ -53,17 +53,17 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to={process.env.PUBLIC_URL + "/home-two"}>
+              <NavLink to={process.env.PUBLIC_URL +"/work-details/2"}>
                 <span className="menu-text">Business Continuity</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to={process.env.PUBLIC_URL + "/home-three"}>
+              <NavLink to={process.env.PUBLIC_URL + "/work-details/3"}>
                 <span className="menu-text">IT Security</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to={process.env.PUBLIC_URL + "/home-three"}>
+              <NavLink to={process.env.PUBLIC_URL + "/work-details/4"}>
                 <span className="menu-text">Office 365</span>
               </NavLink>
             </li>

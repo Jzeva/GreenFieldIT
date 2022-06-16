@@ -4,11 +4,11 @@ import {Link} from "react-router-dom";
 
 
 const WorkDetailsContainer = ({ data }) => {
-    const cate = data.categories.map((value, i) => {
-        return(
-            <span className="d-inline" key={i}>{value}{i !== data.categories.length - 1 && " , "}</span>
-        )
-    })
+    // const cate = data.categories.map((value, i) => {
+    //     return(
+    //         <span className="d-inline" key={i}>{value}{i !== data.categories.length - 1 && " , "}</span>
+    //     )
+    // })
     return (
         <div className="section section-padding">
             <div className="container">
@@ -17,8 +17,8 @@ const WorkDetailsContainer = ({ data }) => {
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="work-left work-details" data-aos="fade-up">
                             <div className="portfolio-main-info">
-                                <h2 className="title">About the <br/> project</h2>
-                                <div className="work-details-list mt-12">
+                                <h2 className="title">{data.service}</h2>
+                                {/* <div className="work-details-list mt-12">
 
                                     <div className="details-list">
                                         <label>Date</label>
@@ -43,7 +43,7 @@ const WorkDetailsContainer = ({ data }) => {
                                 </div>
                                 <div className="work-share pt--70 pt_md--40 pt_sm--40">
                                     <h6 className="heading heading-h6">SHARE</h6>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const WorkDetailsContainer = ({ data }) => {
                         <div className="work-left work-details mt-6">
                             <div className="work-main-info">
                                 <div className="work-content">
-                                    <h6 className="title" data-aos="fade-up">ABOUT THE PROJECT</h6>
+                                    {/* <h6 className="title" data-aos="fade-up">ABOUT THE PROJECT</h6> */}
 
                                     <div className="desc mt-8">
                                         {data.body.map((value, i) => {
@@ -80,7 +80,7 @@ const WorkDetailsContainer = ({ data }) => {
                     </div>
                 </div>
 
-                <div className="row mt-lg-20 mt-12">
+                {/* <div className="row mt-lg-20 mt-12">
                     <div className="col-lg-4 col-md-12 col-12">
                         <div className="digital-marketing" data-aos="fade-up">
                             <h3 className="heading heading-h3">{data.subContent.title}</h3>
@@ -93,9 +93,9 @@ const WorkDetailsContainer = ({ data }) => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="custom-layout-gallery mt-lg-20 mt-12">
+                {/* <div className="custom-layout-gallery mt-lg-20 mt-12">
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-12">
                             <div className="thumbnail" data-aos="fade-up">
@@ -114,7 +114,7 @@ const WorkDetailsContainer = ({ data }) => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
             </div>

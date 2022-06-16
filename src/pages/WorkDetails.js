@@ -15,13 +15,13 @@ const WorkDetails = ({match: {params: {id}}}) => {
     const data = WorkData.filter(work => work.id === workId);
     return (
         <React.Fragment>
-            <SEO title="Exomac || Work Details" />
+            <SEO title="Greenfield IT || Services" />
             <Header />
             <Breadcrumb 
                 image="images/bg/breadcrumb-bg-two.jpg"
-                title={data[0]?.title}
+                title={data[0]?.service}
                 content="Home"
-                contentTwo="Work"
+                contentTwo="Services"
             />
             <WorkDetailsContainer data={data[0]} />
             <Footer />
