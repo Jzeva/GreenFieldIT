@@ -3,7 +3,7 @@
 .site-main-menu {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: right;
 
     & > ul {
         display: flex;
@@ -14,9 +14,9 @@
 
         & > li {
             position: relative;
-
+            
             & > a {
-                font-size: 16px;
+                font-size: 20px;
                 font-weight: 500;
                 line-height: 1.375;
 
