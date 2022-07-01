@@ -72,13 +72,13 @@ const WorkDetailsContainer = ({ data }) => {
                     </div>
                 </div>
 
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-lg-12">
                         <div className="custom-column-thumbnail mt-lg-14 mt-1" data-aos="fade-up">
                             <img className="w-100" src={`${process.env.PUBLIC_URL}/${data.largeImage}`} alt="Agency" />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* <div className="row mt-lg-20 mt-12">
                     <div className="col-lg-4 col-md-12 col-12">

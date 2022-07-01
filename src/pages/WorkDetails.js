@@ -18,7 +18,7 @@ const WorkDetails = ({match: {params: {id}}}) => {
             <SEO title="Greenfield IT || Services" />
             <Header />
             <Breadcrumb 
-                image="images/bg/breadcrumb-bg-two.jpg"
+                image="images/bg/breadcrumb-bg2.jpg"
                 title={data[0]?.service}
                 content="Home"
                 contentTwo="Services"

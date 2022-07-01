@@ -14,7 +14,7 @@ const Contact = () => {
             <SEO title="Greenfield IT || Contact" />
             <Header />
             <Breadcrumb 
-                image="images/bg/breadcrumb-bg-five.jpg"
+                image="images/bg/contact-us.jpg"
                 title="We are an agency located in New York"
                 content="Home"
                 contentTwo="Contact Us"
