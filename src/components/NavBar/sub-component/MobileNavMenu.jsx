@@ -49,13 +49,13 @@ const MobileNavMenu = () => {
                     </ul> */}
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/service"}><span className="menu-text">Managed Services</span></NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + "/work-details/1"}><span className="menu-text">Managed Services</span></NavLink>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/service"}><span className="menu-text">Business Continuity</span></NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + "/work-details/2"}><span className="menu-text">Business Continuity</span></NavLink>
                 </li>
                 <li >
-                    <NavLink to={process.env.PUBLIC_URL + "/service"}><span className="menu-text">IT Security</span></NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + "/work-details/3"}><span className="menu-text">IT Security</span></NavLink>
                     {/* <span className="menu-toggle" onClick={onClickHandler}><i className="far fa-angle-down"></i></span>
                     <ul className="sub-menu">
                         <li><NavLink to={process.env.PUBLIC_URL + "/work"}><span className="menu-text">Work</span></NavLink></li>
@@ -63,7 +63,7 @@ const MobileNavMenu = () => {
                     </ul> */}
                 </li>
                 <li >
-                    <NavLink to={process.env.PUBLIC_URL + "/service"}><span className="menu-text">Office 365</span></NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + "/work-details/4"}><span className="menu-text">Office 365</span></NavLink>
                     {/* <span className="menu-toggle" onClick={onClickHandler}><i className="far fa-angle-down"></i></span>
                     <ul className="sub-menu">
                         <li><NavLink to={process.env.PUBLIC_URL + "/blog-grid"}><span className="menu-text">Blog Grid</span></NavLink></li>
