@@ -3,48 +3,48 @@
     "id": "1",
     "icon": "images/svg/linea/linea-basic-target.svg",
     "title": "Managed IT Services",
-    "desc":"Complete IT support, catered for the productivity, efficiency, and connectivity you need. ",
+    "desc": "Complete IT support, catered for the productivity, efficiency, and connectivity you need. ",
     "pageLink": "Learn More",
-    "link": "service"
+    "link": "/work-details/1"
   },
   {
     "id": "2",
     "icon": "images/svg/linea/linea-basic-picture-multiple.svg",
     "title": "VoIP Telephony",
-    "desc":" Move to a reliable, enterprise-level solution to enable best practice collaboration and customer experience, and work anywhere, anytime and on any device. ",
+    "desc": " Move to a reliable, enterprise-level solution to enable best practice collaboration and customer experience, and work anywhere, anytime and on any device. ",
     "pageLink": "Learn More",
-    "link": "service"
+    "link": "/work-details/2"
   },
   {
     "id": "3",
     "icon": "images/svg/linea/linea-basic-lock.svg",
     "title": "IT Security",
-    "desc":"Safeguard your data and your reputation with comprehensive, integrated security with unmatched defence against malware, exploits & ransomware. ",
+    "desc": "Safeguard your data and your reputation with comprehensive, integrated security with unmatched defence against malware, exploits & ransomware. ",
     "pageLink": "Learn More",
-    "link": "service"
+    "link": "/work-details/3"
   },
   {
     "id": "4",
     "icon": "images/svg/linea/linea-basic-elaboration-briefcase-check.svg",
     "title": "SharePoint & Power Platform",
-    "desc":"Document management and collaboration, robust workflows and forms with outstanding search functionality – all integrated within the Microsoft 365 ecosystem. ",
+    "desc": "Document management and collaboration, robust workflows and forms with outstanding search functionality – all integrated within the Microsoft 365 ecosystem. ",
     "pageLink": "Learn More",
-    "link": "service"
+    "link": "/work-details/4"
   },
   {
     "id": "5",
     "icon": "images/svg/linea/linea-basic-gear.svg",
     "title": "Microsoft 365",
-    "desc":"Utilise Microsoft 365 enabling your users to work securely and collaboratively, anywhere.  ",
+    "desc": "Utilise Microsoft 365 enabling your users to work securely and collaboratively, anywhere.  ",
     "pageLink": "Learn More",
-    "link": "service"
+    "link": "/work-details/5"
   },
   {
     "id": "6",
     "icon": "images/svg/linea/linea-basic-display.svg",
     "title": "Backup and Business Continuity",
-    "desc":"Comprehensive protection for your data, both on premise and in the cloud.  ",
+    "desc": "Comprehensive protection for your data, both on premise and in the cloud.  ",
     "pageLink": "Learn More",
-    "link": "service"
+    "link": "/work-details/6"
   }
 ]
