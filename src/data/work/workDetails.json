@@ -111,16 +111,6 @@
     "btn": {
       "text": "Contact Us",
       "link": "/contact"
-    },
-    "largeImage": "images/project/work-details-1.jpg",
-    "subContent": {
-      "title": "Digital Marketing.",
-      "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
-    },
-    "gallery": {
-      "imageOne": "images/project/work-details-2.jpg",
-      "imageTwo": "images/project/work-details-3.jpg",
-      "imageThree": "images/project/work-details-4.jpg"
     }
   },
   {
@@ -142,21 +132,12 @@
     "btn": {
       "text": "Go to link",
       "link": "/"
-    },
-    "largeImage": "images/project/work-details-1.jpg",
-    "subContent": {
-      "title": "Digital Marketing.",
-      "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
-    },
-    "gallery": {
-      "imageOne": "images/project/work-details-2.jpg",
-      "imageTwo": "images/project/work-details-3.jpg",
-      "imageThree": "images/project/work-details-4.jpg"
     }
   },
   {
-    "id": 6,
-    "service": "Business Continuity",
+    "id": 7,
+    "service": "Dell Technologies",
+    "partnerIcon": "./images/partners/Dell.png",
     "homeImage": "./images/portfolio/portfolio-6.jpg",
     "image": "images/project/project-6.jpg",
     "title": "Modern and unique design for a furniture application",
@@ -173,16 +154,6 @@
     "btn": {
       "text": "Go to link",
       "link": "/"
-    },
-    "largeImage": "images/project/work-details-1.jpg",
-    "subContent": {
-      "title": "Digital Marketing.",
-      "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
-    },
-    "gallery": {
-      "imageOne": "images/project/work-details-2.jpg",
-      "imageTwo": "images/project/work-details-3.jpg",
-      "imageThree": "images/project/work-details-4.jpg"
     }
   }
 ]
